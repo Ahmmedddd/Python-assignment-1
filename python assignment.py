@@ -100,7 +100,8 @@ def factorial(n):
         return result
 number = 4
 print(f"The factorial of {number} is {factorial(number)}")
-output:  The factorial of 4 is 24.
+
+# output:  The factorial of 4 is 24.
 
 #   2.	Check prime number:
 def is_prime(n):
@@ -122,7 +123,7 @@ if is_prime(number):
 else:
     print(f"{number} is not a prime number.")
 
-output:  17 is a prime number.
+# output:  17 is a prime number.
 
 # 3.	SUM OF DIGITS:
 
@@ -142,8 +143,8 @@ number = 12345
 result = sum_of_digits(number)
 print(f"The sum of digits in {number} is {result}")
 
-OUTPUT:
-The sum of digits in 12345 is 15
+# OUTPUT:
+# The sum of digits in 12345 is 15
 
 # 4.	Reverse a string:
 
@@ -155,8 +156,8 @@ reversed_string = reverse_string(original_string)
 print("Original string:", original_string)
 print("Reversed string:", reversed_string)
 
-output: Original string: things will get reverse!
-Reversed string: !esrever teg lliw sgniht
+# output: Original string: things will get reverse!
+# Reversed string: !esrever teg lliw sgniht
 
 # 5.	Even and Odd number:
 
@@ -170,7 +171,7 @@ num = 50
 result = check_even_odd(num)
 print(f"{num} is {result}.")
 
-output: 50 is Even.
+# output: 50 is Even.
 
 # 6.	Maximum and minimum:
 
@@ -182,7 +183,7 @@ minimum = min(numbers)
 print(f"Maximum: {maximum}")
 print(f"Minimum: {minimum}")
 
-OUTPUT: Maximum: 9 Minimum: 1
+# OUTPUT: Maximum: 9 Minimum: 1
   
 # 7.	Count Vowels and Consonants:
 
@@ -210,7 +211,7 @@ vowels, consonants = count_vowels_and_consonants(text)
 print(f"Vowels: {vowels}")
 print(f"Consonants: {consonants}")
 
-OUTPUT:   Vowels: 4  Consonants: 7
+# OUTPUT:   Vowels: 4  Consonants: 7
 
 
 
@@ -222,6 +223,6 @@ gcd = math.gcd(*numbers)
 
 print(f"The GCD of {numbers} is {gcd}")
 
-OUTPUT: The GCD of [14, 55, 78] is 1
+# OUTPUT: The GCD of [14, 55, 78] is 
 
 
